@@ -1,34 +1,36 @@
 h2 {
-	margin-top: 0px;
 	font-size: small;
     font-family: sans-serif;
+	margin-top: 0px;
 }
 
 h3 {
+    color: #848388;
+    font-family: sans-serif;
+    font-size: xx-large;
+    height: 0px;
 	margin-bottom: 30px;
 	margin-top: 40px;
-    height: 0px;
-    font-size: xx-large;
-    font-family: sans-serif;
-    color: #848388;
 
 }
 
 h4 {
+    font-family: sans-serif;
+	font-size: small;
 	margin-bottom: 0px;
 	margin-top: 0px;
-	font-size: small;
-    font-family: sans-serif;
+
 }
 
 h5 {
-	font-size: small;
     font-family: sans-serif;
+	font-size: small;
 }
 
 h6 {
 	font-size: small;
     font-family: sans-serif;
+    color: #848388;
 }
 
 body{
@@ -54,7 +56,7 @@ input::-webkit-input-placeholder {
 
 .container {
 	display: flex;
-	
+	width: 100%;
 }
 
 .left-side {
@@ -137,7 +139,22 @@ input::-webkit-input-placeholder {
 	border-left: 1px solid #F8F8F8;
 }
 
+.tab-box-four:hover {
+    border-left: 1px solid #F8F8F8;
+    background-color: #16A4FA;
+}
 
+.tab-box:hover {
+	background-color: #16A4FA;
+}
+
+.tab-box-three:hover {
+	background-color: #16A4FA;
+}
+
+.tab-box-two:hover {
+	background-color: #16A4FA;
+}
 
 .four-icons {
 	margin-left: 880px;
@@ -238,6 +255,7 @@ input::-webkit-input-placeholder {
 
 .headshot {
 	border-radius: 50%;
+	border: 1px solid;
 }
 
 
@@ -350,6 +368,7 @@ input::-webkit-input-placeholder {
 
 .search-icon {
 	margin-left: 30px;
+	margin-right: 10px;
 }
 
 .circle-border {
@@ -398,6 +417,9 @@ input::-webkit-input-placeholder {
     background-color: white;
 }
 
+.main-btn-margin {
+	margin-right: 7px;
+}
 
 @media screen and (max-width: 375px) {
 	.box-right {
